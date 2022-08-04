@@ -1,5 +1,5 @@
 # Text Editor - UwU Editor
-Implementation of http://antirez.com/news/108
+Implementation of https://viewsourcecode.org/snaptoken/kilo/
 
 ## To Run:
 execute the make command to compile UwUeditor.c file,
@@ -20,4 +20,4 @@ Ctrl-Q : quit -> if not aldready saved will prompt to emter Ctrl-Q 3 times to co
 
 Ctrl-S : save -> will prompt to ask for filename to save as if new file, or will save over existing file \n
 
-Ctrl-F : search/find
+Ctrl-F : search/find -> Esc/Enter to exit, arrow keys to navigate
