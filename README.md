@@ -3,10 +3,15 @@ Implementation of http://antirez.com/news/108
 
 ## To Run:
 execute the make command to compile UwUeditor.c file,
+
   $ make
+  
 execute the created a.UwUeditor directly to open empty editor with,
+
   $ ./a.UwUeditor
+  
 execute with name of file as argument to open a preexisting file,
+
   $ ./a.UwUeditor filename
 
 
