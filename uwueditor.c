@@ -19,7 +19,7 @@
 #include <unistd.h>
 
 //defines
-#define UwU_VERSION "0.0.3"
+#define UwU_VERSION "0.0.6"
 #define UwU_TAB_STOP 0
 #define UwU_QUIT_TIMES 3
 
@@ -1008,7 +1008,7 @@ void editorDrawRows(struct abuf *ab) {
         if (filerow >= E.numrows) {
             if (E.numrows == 0 && y == E.screenrows / 3) {
                 char welcome[80];
-                int welcomelen = snprintf(welcome, sizeof(welcome), "The Cult of UwU editor -- version %s", UwU_VERSION);
+                int welcomelen = snprintf(welcome, sizeof(welcome), "The Cult of UwU's -> UwU editor -- version %s", UwU_VERSION);
                 if (welcomelen > E.screencols) {
                     welcomelen = E.screencols;
                 }
