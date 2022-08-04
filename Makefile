@@ -1,2 +1,2 @@
-uwueditor: uwueditor.c
-	gcc uwueditor.c -o a.uwueditor -Wall -Wextra -pedantic -std=c99
+UwUeditor: UwUeditor.c
+	gcc UwUeditor.c -o a.UwUeditor -Wall -Wextra -pedantic -std=c99
