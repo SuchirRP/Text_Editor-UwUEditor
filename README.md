@@ -11,6 +11,6 @@ execute with name of file as argument to open a preexisting file,
 
 
 ## Commands within editor
-Ctrl-Q : quit -> if not aldready saved will prompt to emter Ctrl-Q 3 times to confirm discarding changes
-Ctrl-S : save -> will prompt to ask for filename to save as if new file, or will save over existing file
+Ctrl-Q : quit -> if not aldready saved will prompt to emter Ctrl-Q 3 times to confirm discarding changes \n
+Ctrl-S : save -> will prompt to ask for filename to save as if new file, or will save over existing file \n
 Ctrl-F : search/find
