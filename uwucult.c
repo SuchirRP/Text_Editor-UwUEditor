@@ -768,14 +768,14 @@ void editorDrawRows(struct abuf *ab) {
                 }
                 int padding = (E.screencols - welcomelen) / 2;
                 if (padding) {
-                    abAppend(ab, "~", 1);
+                    abAppend(ab, "UwU~", 4);
                     padding--;
                 }
                 while (padding--) abAppend(ab, " ", 1);
                     abAppend(ab, welcome, welcomelen);
                 }
             else {
-                abAppend(ab, "~", 1);
+                abAppend(ab, "UwU~", 4);
             }
         }
         else {
