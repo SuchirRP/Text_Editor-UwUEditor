@@ -20,7 +20,7 @@
 
 //defines
 #define UwU_VERSION "0.0.6"
-#define UwU_TAB_STOP 0
+#define UwU_TAB_STOP 1
 #define UwU_QUIT_TIMES 3
 
 #define CTRL_KEY(k) ((k) & 0x1f)
